@@ -1,5 +1,5 @@
 require_relative "./student.rb"
-require 'pry'
+
 class ChattyStudent < Student
 
   def hello
@@ -12,5 +12,5 @@ class ChattyStudent < Student
       super
     end
   end
-binding.pry
+
 end
